@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import "./App.css";
 import "./reset.css";
 import LinkedIn from "./icon/Linked-in.png";
@@ -10,7 +11,12 @@ function App() {
     <div className="App">
       <header>
         <div className="header-flex">
-          <div className="green-header-box"></div>
+          <div className="green-header-box">
+            <select name="languages" className="select-languages">
+              <option value="LT">Lietuviškai</option>
+              <option value="EN">English</option>
+            </select>
+          </div>
           <div className="header-box">
             <p className="name-in-cv">Gabriele</p>
             <p className="education-title">programmer</p>
