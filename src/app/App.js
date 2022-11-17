@@ -1,78 +1,16 @@
-/* eslint-disable jsx-a11y/alt-text */
 import "./App.css";
 import "../reset.css";
 import Header from "./Header/Header";
-import HeaderBox from "./Header/Header-box";
-import HeaderGreenBox from "./Header/Header-green-box";
 import Hr from "./Hr/Hr.js";
 import Paragraph from "./Paragraph/Paragraph";
-import LinkedIn from "./icon/Linked-in.png";
-import Twitter from "./icon/Twitter.png";
-import Github from "./icon/Github.png";
-import Dev from "./icon/DEV.png";
+import SectionLinks from "./SectionLinks/SectionLinks";
 
 function App() {
   return (
     <div className="App">
-      <Header>
-        <HeaderGreenBox className="green-header-box">
-          <option value="LT">Lietuviškai</option>
-          <option value="EN">English</option>
-        </HeaderGreenBox>
-        <HeaderBox className="header-box">
-          <p className="name-in-cv">Gabriele</p>
-          <p className="education-title">programmer</p>
-        </HeaderBox>
-      </Header>
+      <Header className="header-flex"></Header>
       <main>
-        <section className="links-about">
-          <div className="link-block">
-            <p className="cv-title">links</p>
-            <Hr className="in-line-hr">
-              <div className="grey-hr"></div>
-            </Hr>
-            <div className="inline-icon-block">
-              <div className="in-line-icon">
-                <img className="icon" src={LinkedIn} />
-                <p className="paragraph inline">LINKEDIN/username</p>
-              </div>
-              <div className="in-line-icon">
-                <img className="icon" src={Twitter} />
-                <p className="paragraph inline">TWITTER/username</p>
-              </div>
-              <div className="in-line-icon">
-                <img className="icon" src={Github} />
-                <p className="paragraph inline">GITHUB/username</p>
-              </div>
-              <div className="in-line-icon">
-                <img className="icon" src={Dev} />
-                <p className="paragraph inline">DEV/username</p>
-              </div>
-            </div>
-          </div>
-          <div className="link-block">
-            <p className="cv-title">about me</p>
-            <Hr className="in-line-hr">
-              <div className="grey-hr-long"></div>
-            </Hr>
-            <p className="about-me">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
-              culpa praesentium quam sed dolorem laborum dolor tempore? Cum,
-              ducimus autem, saepe est obcaecati ratione optio placeat
-              voluptatibus, distinctio quia animi error harum. Tempora id hic
-              natus exercitationem dolore molestiae adipisci, veritatis aperiam
-              sint eius. Modi voluptatum tenetur, officia repudiandae ullam non
-              vitae illum delectus dolor laboriosam id omnis dicta dolores in,
-              fuga deserunt libero ducimus eos fugiat, quaerat nam. Facere
-              libero neque, dolorum quidem eum est ad accusamus suscipit
-              molestias impedit, provident dolore accusantium ipsum ipsa
-              incidunt voluptatibus sed earum. Aut in vel ea voluptatibus
-              tempora? Id odit minus rem ipsam illum laboriosam, voluptas harum
-              iste ratione velit iusto, sapiente praesentium fuga suscipit
-              incidunt!
-            </p>
-          </div>
-        </section>
+        <SectionLinks></SectionLinks>
         <section className="education-skills">
           <div className="link-block">
             <p className="cv-title">education</p>

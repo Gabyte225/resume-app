@@ -1,12 +1,19 @@
 import "./Header.css";
+import HeaderBox from "./Header-box";
+import HeaderGreenBox from "./Header-green-box";
 
-function Header({ children }) {
+function Header({ className }) {
   return (
-    <header>
-        <div className="header-flex">
-          {children}
-        </div>
-      </header>
+    <div className={className}>
+      <HeaderGreenBox className="green-header-box">
+        <option value="LT">Lietuviškai</option>
+        <option value="EN">English</option>
+      </HeaderGreenBox>
+      <HeaderBox className="header-box">
+        <p className="name-in-cv">Gabriele</p>
+        <p className="education-title">programmer</p>
+      </HeaderBox>
+    </div>
   );
 }
 

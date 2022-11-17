@@ -1,6 +1,6 @@
 import "./select.css";
 
-function Select({ className, name = "languages", children }) {
+function Select({ className, children }) {
   return (
     <select className={className} name>
       {children}
