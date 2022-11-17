@@ -1,0 +1,39 @@
+.paragraph {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 10px;
+  color: #000000;
+}
+.paragraph.skills {
+  text-align: center;
+  padding: 0 10px;
+  margin-bottom: 30px;
+  border-radius: 11px;
+}
+
+.green {
+  width: fit-content;
+  background: #7abcac;
+}
+.yellow {
+  width: fit-content;
+  background: #d8da79;
+}
+.orange {
+  width: fit-content;
+  background: #c29486;
+}
+.paragraph.block {
+  font-weight: 500;
+}
+.left {
+  text-align: left;
+  padding: 0 15px;
+}
+.paragraph.links {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}

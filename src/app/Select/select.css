@@ -1,0 +1,9 @@
+.select-languages {
+  position: absolute;
+  padding: 5px;
+  font-size: 16px;
+  background: #c4c4c4;
+  border-color: #c4c4c4;
+  border-radius: 3px;
+  margin-right: 20px;
+}
