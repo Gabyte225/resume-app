@@ -116,12 +116,12 @@
   display: flex;
   justify-content: space-between;
 }
-.grey-hr-short {
+/* .grey-hr-short {
   width: 201px;
   height: 4px;
   margin-bottom: 10px;
   background: #dcdcdc;
-}
+} */
 /* .paragraph.skills {
   text-align: center;
   padding: 0 10px;

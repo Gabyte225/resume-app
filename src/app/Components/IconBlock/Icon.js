@@ -1,9 +1,9 @@
 import "./Icon.css";
 /* eslint-disable jsx-a11y/alt-text */
-import LinkedIn from "../icon/Linked-in.png";
-import Twitter from "../icon/Twitter.png";
-import Github from "../icon/Github.png";
-import Dev from "../icon/DEV.png";
+import LinkedIn from "../../icon/Linked-in.png";
+import Twitter from "../../icon/Twitter.png";
+import Github from "../../icon/Github.png";
+import Dev from "../../icon/DEV.png";
 import Paragraph from "../Paragraph/Paragraph";
 
 function IconBlock({ className }) {

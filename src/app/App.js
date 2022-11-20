@@ -1,9 +1,10 @@
 import "./App.css";
 import "../reset.css";
-import Header from "./Header/Header";
-import Hr from "./Hr/Hr.js";
-import Paragraph from "./Paragraph/Paragraph";
-import SectionLinks from "./SectionLinks/SectionLinks";
+import Header from "./Components/Header/Header";
+import Hr from "./Components/Hr/Hr.js";
+import Paragraph from "./Components/Paragraph/Paragraph";
+import SectionLinks from "./Components/SectionLinks/SectionLinks";
+import LinkBlock from "./Components/LinkBlock/LinkBlock";
 
 function App() {
   return (
@@ -12,23 +13,14 @@ function App() {
       <main>
         <SectionLinks></SectionLinks>
         <section className="education-skills">
-          <div className="link-block">
-            <p className="cv-title">education</p>
-            <Hr className="in-line-hr">
-              <div className="grey-hr"></div>
-            </Hr>
-            <div>
-              <Paragraph>SCHOOL NAME</Paragraph>
-              <Paragraph>2011-2014</Paragraph>
-              <Paragraph>Degree</Paragraph>
-            </div>
-            <div className="grey-hr-short"></div>
-            <div>
-              <Paragraph>SCHOOL NAME</Paragraph>
-              <Paragraph>2011-2014</Paragraph>
-              <Paragraph>Degree</Paragraph>
-            </div>
-          </div>
+          <LinkBlock type='education'>
+            <Paragraph>SCHOOL NAME</Paragraph>
+            <Paragraph>2011-2014</Paragraph>
+            <Paragraph>Degree</Paragraph>
+            <Paragraph>SCHOOL NAME</Paragraph>
+            <Paragraph>2011-2014</Paragraph>
+            <Paragraph>Degree</Paragraph>
+          </LinkBlock>
           <div className="link-block">
             <p className="cv-title">personal skills</p>
             <Hr className="in-line-hr">
