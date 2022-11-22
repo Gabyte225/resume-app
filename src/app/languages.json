@@ -1,0 +1,88 @@
+{
+  "en": {
+    "header": {
+      "jobTitle": "Programmer"
+    },
+    "main": {
+      "links": {
+        "links": "Links"
+      },
+      "about": {
+        "about": "About",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, culpa praesentium quam sed dolorem laborum dolor tempore? Cum, ducimus autem, saepe est obcaecati ratione optio placeat voluptatibus, distinctio quia animi error harum. Tempora id hic natus exercitationem dolore molestiae adipisci, veritatis aperiam sint eius. Modi voluptatum tenetur, officia repudiandae ullam non vitae illum delectus dolor laboriosam id omnis dicta dolores in, fuga deserunt libero ducimus eos fugiat, quaerat nam. Facere libero neque, dolorum quidem eum est ad accusamus suscipit molestias impedit, provident dolore accusantium ipsum ipsa incidunt voluptatibus sed earum. Aut in vel ea voluptatibus tempora? Id odit minus rem ipsam illum laboriosam, voluptas harum iste ratione velit iusto, sapiente praesentium fuga suscipit incidunt!"
+      },
+      "education": {
+        "education": "education",
+        "name": "SCHOOL NAME",
+        "degree": "Degree"
+      },
+      "personalSkills": {
+        "personalSkills": "personal Skills",
+        "teamwork": "TEAMWORK",
+        "communication": "COMMUNICATION",
+        "organization": "ORGANIZATION"
+      },
+      "technicalSkills": "technical Skills",
+      "experience": {
+        "experience": "work experience",
+        "position": {
+          "title": "job position",
+          "company": "Company",
+          "year": "2018-present",
+          "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae voluptatum nihil voluptates soluta saepe quasi nostrum placeat corrupti facilis! corrupti facilis!"
+        }
+      }
+    },
+    "footer": {
+      "location": {
+        "location": "location",
+        "contry": "Lithuania"
+      },
+      "contacts": "contacts",
+      "social": "social"
+    }
+  },
+  "lt": {
+    "header": {
+      "jobTitle": "Programuotoja"
+    },
+    "main": {
+      "links": {
+        "links": "Linkai"
+      },
+      "about": {
+        "about": "Apie mane",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, culpa praesentium quam sed dolorem laborum dolor tempore? Cum, ducimus autem, saepe est obcaecati ratione optio placeat voluptatibus, distinctio quia animi error harum. Tempora id hic natus exercitationem dolore molestiae adipisci, veritatis aperiam sint eius. Modi voluptatum tenetur, officia repudiandae ullam non vitae illum delectus dolor laboriosam id omnis dicta dolores in, fuga deserunt libero ducimus eos fugiat, quaerat nam. Facere libero neque, dolorum quidem eum est ad accusamus suscipit molestias impedit, provident dolore accusantium ipsum ipsa incidunt voluptatibus sed earum. Aut in vel ea voluptatibus tempora? Id odit minus rem ipsam illum laboriosam, voluptas harum iste ratione velit iusto, sapiente praesentium fuga suscipit incidunt!"
+      },
+      "education": {
+        "education": "Išsilavinimas",
+        "name": "MOKYKLOS PAVADINIMAS",
+        "degree": "Laipsnis"
+      },
+      "personalSkills": {
+        "personalSkills": "asmeniniai įgūdžiai",
+        "teamwork": "DARBAS KONAMDOJE",
+        "communication": "KOMUNIKACIJA",
+        "organization": "ORGANIZACINIAI ĮGŪDŽIAI"
+      },
+      "technicalSkills": "techniniai sugebėjimai",
+      "experience": {
+        "experience": "Darbo patirtis",
+        "position": {
+          "title": "darbo pozicija",
+          "company": "Kompanija",
+          "year": "2018-dabar",
+          "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod recusandae voluptatum nihil voluptates soluta saepe quasi nostrum placeat corrupti facilis! corrupti facilis!"
+        }
+      }
+    },
+    "footer": {
+      "location": {
+        "location": "Gyvenamoji vieta",
+        "contry": "Lietuva"
+      },
+      "contacts": "Kontaktai",
+      "social": "Socialiniai tinklai"
+    }
+  }
+}

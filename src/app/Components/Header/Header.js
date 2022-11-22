@@ -1,18 +1,30 @@
 import "./Header.css";
-import HeaderBox from "./Header-box";
-import HeaderGreenBox from "./Header-green-box";
+import Select from "../Select/select";
+import languages from "../../languages.json";
 
-function Header({ className }) {
+function Header({ className, onChange, language }) {
   return (
     <div className={className}>
-      <HeaderGreenBox className="green-header-box">
-        <option value="LT">Lietuviškai</option>
-        <option value="EN">English</option>
-      </HeaderGreenBox>
-      <HeaderBox className="header-box">
+      <div className="green-header-box">
+        <Select
+          className="select-languages"
+          onChange={onChange}
+          options={[
+            {
+              label: "Lietuviškai",
+              value: "lt",
+            },
+            {
+              label: "English",
+              value: "en",
+            },
+          ]}
+        />
+      </div>
+      <div className="header-box">
         <p className="name-in-cv">Gabriele</p>
-        <p className="education-title">programmer</p>
-      </HeaderBox>
+        <p className="education-title">{languages[language].header.jobTitle}</p>
+      </div>
     </div>
   );
 }

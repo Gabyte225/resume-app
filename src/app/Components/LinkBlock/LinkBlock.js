@@ -10,9 +10,7 @@ function LinkBlock({ children, title, type }) {
       <Hr className="in-line-hr">
         <div className="grey-hr"></div>
       </Hr>
-      <div>{children}</div>
-      <div className="grey-hr-short"></div>
-      <div>{children}</div>
+      {children}
     </div>
   );
 }
